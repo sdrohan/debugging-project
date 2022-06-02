@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
 
 fun findLargest(list: IntArray): Int {
     var index = 0
-    var max = 0
+    var max = Int.MIN_VALUE
 
     while (index < list.size) {
         if (list[index] > max) {
